@@ -30,7 +30,7 @@ public class ClownWorld implements World {
         this.height = height;
 //        GameObject background;
 //        background = new PictureObject(0, 0, ImageIO.read(getClass().getClassLoader().getResourceAsStream("handsa.png")),width,height,false);
-        GameObject background = new PictureObject(0, 0, "assets/handsa.png",width,height,false);
+        GameObject background = new PictureObject(0, 0, "handsa.png",width,height,false);
         int lineHeight = 10;
         int lineWidth = 300;
         int x1 = 0;
@@ -63,7 +63,7 @@ public class ClownWorld implements World {
             x3 += 160;
             x4 += 160;
         }
-        controlable.add(new Clown(300, 400, "hisham2.png", 250, 200, true));
+        controlable.add(new Clown(300, 400, "hisham3.png", 250, 200, true));
 
     }
 
