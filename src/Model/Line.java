@@ -24,7 +24,7 @@ public class Line implements GameObject{
         this.x =x;
         this.y = y;
         this.type = type;
-        spriteImages[0] = new BufferedImage(test.CLOWNWORLDWIDTH,test.CLOWNWORLDHEIGHT,BufferedImage.TYPE_INT_ARGB);
+        spriteImages[0] = new BufferedImage(1000,700,BufferedImage.TYPE_INT_ARGB);
         Graphics2D g2 =   spriteImages[0].createGraphics();
         g2.setColor(lineColor);
         g2.setBackground(lineColor);
